@@ -19,7 +19,7 @@ void open_door();
 
 class maptile
 {
-	static int current_x,current_y;				//players current co-ordinates
+	static int current_x,current_y;				//players current co-ordinates 
 	static maptile* current_tile;				//players's current tile position
 
 	char left[15],right[15],up[15],down[15];		//variables: directions
