@@ -13,7 +13,7 @@ void menu();			//gives output as game's main menu
 void input();			//asks two word input from the user, splits the word and assigns them in different variables
 void processor(char[] ,char[]);	//checks condition for known inputs and carry out accordingly, and gives error for invalid inputs
 void response(int);		//an integer value is passed to it by processor and generates response accordingly
-void check_dir_go(char[]);	//
+void check_dir_go(char[]);	// 
 void check_door();
 void open_door();
 
