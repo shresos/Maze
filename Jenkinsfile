@@ -1,7 +1,7 @@
 node {
   stage('check')
   {
-    echo "Hi"
+    echo "Hello"
   }
 }
 
